@@ -102,45 +102,19 @@ width: 30%;
 }
 
 
-div.author{
+div.comments-section{
+	height:350px;
+	background: #33ab77;
+	margin-left:5px;
+	margin-bottom: 5px;
 	display: flex;
-	flex-direction: column;
-	height: 350px;
-	background: red;
-	width: 100%;
 	padding: 5px;
 }
 
-div.author > div{
-	background: cyan;
+div.comments-section > div{
+	flex-basis: :250px;
+	background: #1a5ce0;
 	margin-bottom: 10px;
-}
-
-
-div.author-pic{
-	margin-right: 5px;
-	width: 30%;
-	background: blue;
-
-	
-	
-}
-div.author-bio{
-	height: 350px;
-	flex-direction: row;
-	padding: 5px;
-	
-	
-}
-
-div.author-bio > div.author-bio-title{
-	height: 20%;
-	margin-bottom: 5px;	
-
-}
-
-div.author-bio > div.author-bio-body{
-	height: 80%;
 }
 
 div.sponsored-post{
