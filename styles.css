@@ -5,27 +5,17 @@ body{
 }
 
 
-nav.nav-top{
-	display: flex;
-}
-
-div.nav-bar{
-	background:#ccc;
-	height:100px;
-	margin-bottom: 10px;
-	width: 100%;
-}
-
 img.favicon{
 	border-radius: 100px;
 	height: 90px;
-	width: 20%;
+	width: 100%;
 	margin-bottom: 10px;
 	
 }
 section.main-section{
 
 	display: flex;
+	width: 100%;
 }
 section.main-content{
 
@@ -183,5 +173,50 @@ div.sponsored-widget > div.sponsored-body{
 	height: 80%;
 	background: #ccc;
 	margin-bottom: 5px;
+}
+nav.nav-bar{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	background:#ccc;
+	height:100px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+nav.nav-bar > div{
+	flex-basis: 100px;
+	background-color: #33ab77;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+}
+nav.nav-bar > div.logo{
+	background: white;
+}
+
+nav.nav-bar > div.search{
+	flex-grow: 1;
+	flex-shrink: 1;
+	background: green;
+	margin-left: auto;
+}
+div.nav-bar > div.home-page{
+	background: blue;
+	margin-left: 5px;
+	
+}
+
+nav.nav-bar > div.signin{
+	background: red;
+	margin-left: 5px;
+
+}
+
+nav.nav-bar > div.signup{
+	background: black;
+	color: white;
+	margin-left: 5px;
 }
 
